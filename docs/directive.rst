@@ -359,11 +359,12 @@ The ``conf.py`` option **jsonschema_options** lets you do so.
 It takes a dict as value the boolean valued keys of which have the same name as the options.
 
 So, in ``conf.py`` you can state:
+
 .. code-block:: py
 
     jsonschema_options = {
         'lift_description': True,
-        'aut_reference': True
+        'auto_reference': True
     }
 
 By default all four options are False.
